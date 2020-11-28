@@ -35,7 +35,7 @@ paplay $(pwd)/silence.wav # Play a sound so my desktop speakers won't miss the f
 espeak -p 66 -s 200 ". ... ."
 paplay --volume 65535 --latency-msec=40 $(pwd)/ben.wav # Play a sound so my desktop speakers won't miss the first 3 seconds of audio if left for a while, which borks the whole script.
 sleep 2s
-notify-send "It's $TIMEHOURSPEAKY o'clock, on $TIMEDAYVALUE."
+#notify-send "It's $TIMEHOURSPEAKY o'clock, on $TIMEDAYVALUE."
 espeak -p 66 -s 150 "... it's $TIMEHOURSPEAKY o'clock.. ... ."
 sleep 0.4s
 
