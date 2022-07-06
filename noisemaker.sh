@@ -40,13 +40,13 @@ espeak -p 66 -s 150 "... it's $TIMEHOURSPEAKY o'clock.. ... ."
 sleep 0.4s
 
 # A or P for the first bit of the 12-hour time distinction
-espeak -p 66 -s 150 -z $(echo $AMORPMVAR)
+#espeak -p 66 -s 150 -z $(echo $AMORPMVAR)
 sleep 0.1
 # M for the second bit
-espeak -p 66 -s 150 "M"
+#espeak -p 66 -s 150 "M"
 
 sleep 1s
-espeak -p 66 -s 150 ", $TIMEDAYVALUE"
+#espeak -p 66 -s 150 ", $TIMEDAYVALUE"
 
 sleep 3s
 
